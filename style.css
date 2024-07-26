@@ -1,0 +1,154 @@
+body {
+    font-family: 'helvetica', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    background-color: #b99b8c;
+    color:#493b38;
+}
+
+header {
+    background-color: #ded2ce;
+    color: #ded2ce;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'helvetica', sans-serif;
+    font-size: 1.5rem;
+    font-weight: medium;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #7d6c68;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #493b38;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 4rem; /* Abstand zum Footer */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    color: #695650;
+}
+
+.intro-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border: none;
+}
+
+footer {
+    background-color: #ded2ce;
+    color: #7d6c68;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem; /* Abstand zum oberen Inhalt */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.impressum-section p, .dienstleistungen-section p, .geschaeftszeiten-section p, .ueber-uns-section p {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ded2ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #493b38;
+}
+
+.geschaeftszeiten-section {
+    text-align: center;
+}
+
+
+.karte {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.karte img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+}
+
+.dienstleistungen-section {
+    padding: 20px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo-row img {
+    height: 200px; /*300px*/
+    object-fit: cover;
+    flex: 1;
+    margin-left: 0px;
+    margin: 5px;
+}
+
+.produkte-section img {
+    max-width: 800px;
+    margin: 0 auto;
+    object-fit: cover;
+    flex: 1;
+}
+
+.ueber-uns-section img {
+    max-width: 800px;
+    margin: 0 auto;
+}
